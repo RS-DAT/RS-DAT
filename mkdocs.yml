@@ -1,0 +1,63 @@
+site_name: Remote sensing deployable analysis tools (RS-DAT)
+repo_url: https://github.com/RS-DAT/RS-DAT
+repo_name: RS-DAT
+
+nav:
+  - What can RS-DAT do for you: index.md
+  - Overview of components: components.md
+  - Examples: examples.md
+  - How to contribute: how_to_contribute.md
+  - How to cite: how_to_cite.md
+  - License: what_license.md
+
+
+theme:
+  name: material
+  custom_dir: docs/download_button
+  logo: logo/RS_DAT_logo.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: blue
+      accent: purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: grey
+      accent: pink
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  extra_css:
+    - custom.css
+
+plugins:
+- mkdocs-jupyter:
+      include_source: True
+- include-markdown
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        options:
+          docstring_style: google
+          docstring_options:
+            ignore_init_summary: no
+          merge_init_into_class: yes
+          show_submodules: no
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+extra:
+  generator: false
