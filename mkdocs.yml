@@ -4,8 +4,14 @@ repo_name: RS-DAT
 
 nav:
   - What can RS-DAT do for you: index.md
-  - Overview of components: components.md
+  - Deployable Analysis Tools:
+    - Jupyter Dask On SLURM: components/jupyter_dask_on_slurm.md
+    - Jupyter Dask On SRC: components/jupyter_dask_on_src.md
+    - Jupyter Dask Cloud to Cluster: components/jupyter_dask_cloud_to_cluster.md
+    - Jupyter Docker Spawner On SRC: components/jupyter_docker_spawner_on_src.md
+    - Jupyter Dask with Singularity: components/jupyterdask_with_singularity.md
   - Examples: examples.md
+  - Demos: demos.md
   - How to contribute: how_to_contribute.md
   - How to cite: how_to_cite.md
   - License: what_license.md
