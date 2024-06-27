@@ -1,4 +1,4 @@
-## Overview
+#
 
 {% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDockerSpawnerOnSRC/main/README.md" start="# JupyterDockerSpawnerOnSRC" heading-offset=2%}
 

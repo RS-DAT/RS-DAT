@@ -1,4 +1,4 @@
-## Overview
+#
 
 {% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDaskCloud2Cluster/main/README.md" start="# JupyterDaskCloud2Cluster" heading-offset=2 %}
 

@@ -1,20 +1,18 @@
-## Overview
+#
 
-{% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDask-Examples/main/README.md" start="# JupyterDask-Examples" heading-offset=2%}
-
-### 01-STAC-on-dCache
+## 01-STAC-on-dCache
 
 {% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDask-Examples/main/01-STAC-on-dCache/README.md" heading-offset=3%}
 
-### 02-AHN3-filtering
+## 02-AHN3-filtering
 
 {% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDask-Examples/main/02-AHN3-filtering/README.md" heading-offset=3%}
 
-### 03-phenology
+## 03-phenology
 
 {% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDask-Examples/main/03-phenology/README.md" heading-offset=3%}
 
-### 04-emulator
+## 04-emulator
 
 {% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDask-Examples/main/04-emulator/readme.md" heading-offset=3%}
 

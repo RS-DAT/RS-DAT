@@ -1,4 +1,4 @@
-## Overview
+#
 
 {% include-markdown "https://raw.githubusercontent.com/RS-DAT/JupyterDaskOnSRC/main/README.md" start="# JupyterDask on SURF Research Cloud" heading-offset=2 %}
 
