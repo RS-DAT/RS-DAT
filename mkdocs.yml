@@ -1,0 +1,76 @@
+site_name: Remote sensing deployable analysis tools (RS-DAT)
+repo_url: https://github.com/RS-DAT/RS-DAT
+repo_name: RS-DAT
+
+nav:
+  - Introduction: index.md
+  - Deploy:
+    - Jupyter Dask On SLURM: deploying/jupyter_dask_on_slurm.md
+    - Jupyter Dask On SRC: deploying/jupyter_dask_on_src.md
+    - Jupyter Dask Cloud to Cluster: deploying/jupyter_dask_cloud_to_cluster.md
+    - Jupyter Docker Spawner On SRC: deploying/jupyter_docker_spawner_on_src.md
+    - Jupyter Dask with Singularity: deploying/jupyterdask_with_singularity.md
+  - Examples: examples.md
+  - Demos:
+    - 2023-05-31-SummerSchool-HDCRS: demos/2023_05_31_SummerSchool_HDCRS.md
+    - 023-05-22-scalable-GIS: demos/023_05_22_scalable_GIS.md
+    - 2023-05-15-workshop-ITC: demos/2023_05_15_workshop_ITC.md
+    - 2023-03-10-demo-TU-Delft: demos/2023_03_10_demo_TU_Delft.md
+    - 2022-12-01-demo-remote-sensing-session: demos/2022_12_01_demo_remote_sensing_session.md
+  - Contributing: how_to_contribute.md
+  - Cite: how_to_cite.md
+  - License: what_license.md
+
+
+theme:
+  name: material
+  custom_dir: docs/download_button
+  logo: logo/RS_DAT_logo.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: blue
+      accent: purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: grey
+      accent: pink
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  extra_css:
+    - custom.css
+
+plugins:
+- mkdocs-jupyter:
+      include_source: True
+- include-markdown
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        options:
+          docstring_style: google
+          docstring_options:
+            ignore_init_summary: no
+          merge_init_into_class: yes
+          show_submodules: no
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+
+extra:
+  generator: false
