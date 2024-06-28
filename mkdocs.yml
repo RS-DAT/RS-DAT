@@ -3,8 +3,8 @@ repo_url: https://github.com/RS-DAT/RS-DAT
 repo_name: RS-DAT
 
 nav:
-  - What can RS-DAT do for you: index.md
-  - Deployable Analysis Tools:
+  - Introduction: index.md
+  - Deploy:
     - Jupyter Dask On SLURM: components/jupyter_dask_on_slurm.md
     - Jupyter Dask On SRC: components/jupyter_dask_on_src.md
     - Jupyter Dask Cloud to Cluster: components/jupyter_dask_cloud_to_cluster.md
@@ -17,8 +17,8 @@ nav:
     - 2023-05-15-workshop-ITC: demos/2023_05_15_workshop_ITC.md
     - 2023-03-10-demo-TU-Delft: demos/2023_03_10_demo_TU_Delft.md
     - 2022-12-01-demo-remote-sensing-session: demos/2022_12_01_demo_remote_sensing_session.md
-  - How to contribute: how_to_contribute.md
-  - How to cite: how_to_cite.md
+  - Contributing: how_to_contribute.md
+  - Cite: how_to_cite.md
   - License: what_license.md
 
 
