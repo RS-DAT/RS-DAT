@@ -4,4 +4,4 @@
 
 ## Source code
 
-The source code of this tool can be found at [RS-DAT/2022-12-01-demo-remote-sensing-session](https://github.com/RS-DAT/2022-12-01-demo-remote-sensing-session).
+The source code of the material can be found at [RS-DAT/2022-12-01-demo-remote-sensing-session](https://github.com/RS-DAT/2022-12-01-demo-remote-sensing-session).
