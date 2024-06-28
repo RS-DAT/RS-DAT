@@ -5,11 +5,11 @@ repo_name: RS-DAT
 nav:
   - Introduction: index.md
   - Deploy:
-    - Jupyter Dask On SLURM: components/jupyter_dask_on_slurm.md
-    - Jupyter Dask On SRC: components/jupyter_dask_on_src.md
-    - Jupyter Dask Cloud to Cluster: components/jupyter_dask_cloud_to_cluster.md
-    - Jupyter Docker Spawner On SRC: components/jupyter_docker_spawner_on_src.md
-    - Jupyter Dask with Singularity: components/jupyterdask_with_singularity.md
+    - Jupyter Dask On SLURM: deploying/jupyter_dask_on_slurm.md
+    - Jupyter Dask On SRC: deploying/jupyter_dask_on_src.md
+    - Jupyter Dask Cloud to Cluster: deploying/jupyter_dask_cloud_to_cluster.md
+    - Jupyter Docker Spawner On SRC: deploying/jupyter_docker_spawner_on_src.md
+    - Jupyter Dask with Singularity: deploying/jupyterdask_with_singularity.md
   - Examples: examples.md
   - Demos:
     - 2023-05-31-SummerSchool-HDCRS: demos/2023_05_31_SummerSchool_HDCRS.md
