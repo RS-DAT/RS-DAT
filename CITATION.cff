@@ -1,0 +1,54 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.0.0
+title: RS-DAT
+message: This file cites all components of RS-DAT
+type: software
+authors:
+  - given-names: Francesco
+    family-names: Nattino
+    email: f.nattino@esciencecenter.nl
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0003-3286-0139'
+  - given-names: Meiert W.
+    family-names: Grootes
+    email: m.grootes@esciencecenter.nl
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-5733-4795'
+  - given-names: Fakhereh (Sarah)
+    family-names: Alidoost
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0001-8407-6472'
+  - given-names: Ou
+    family-names: Ku
+    email: o.ku@esciencecenter.nl
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-5373-5209'
+  - given-names: Pranav
+    family-names: Chandramouli
+    email: p.chandramoulI@esciencecenter.nl
+    affiliation: Netherlands eScience Center
+    orcid: 'https://orcid.org/0000-0002-7896-2969'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7342602
+    description: >-
+      Persistent identifier for all versions of JupyterDaskonSLURM
+repository-code: 'https://github.com/RS-DAT/RS-DAT'
+url: 'https://rs-dat.github.io/RS-DAT/'
+abstract: >-
+  This is the main, common repository of the RS-DAT project.
+  Any common issues can and should be raised here, and
+  common developments can be housed here. Issues and
+  solutions arsing from the working groups that may/will
+  affect the other usecases should be also be linked from
+  here.
+keywords:
+  - Dask
+  - Jupyter
+  - SLURM
+  - Cloud
+  - Docker
+  - Singularity
+license: Apache-2.0
