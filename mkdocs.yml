@@ -13,7 +13,7 @@ nav:
   - Examples: examples.md
   - Demos:
     - 2023-05-31-SummerSchool-HDCRS: demos/2023_05_31_SummerSchool_HDCRS.md
-    - 023-05-22-scalable-GIS: demos/023_05_22_scalable_GIS.md
+    - 2023-05-22-scalable-GIS: demos/2023_05_22_scalable_GIS.md
     - 2023-05-15-workshop-ITC: demos/2023_05_15_workshop_ITC.md
     - 2023-03-10-demo-TU-Delft: demos/2023_03_10_demo_TU_Delft.md
     - 2022-12-01-demo-remote-sensing-session: demos/2022_12_01_demo_remote_sensing_session.md
