@@ -31,26 +31,10 @@ authors:
     affiliation: Netherlands eScience Center
     orcid: 'https://orcid.org/0000-0002-7896-2969'
 identifiers:
-  - type: url
-    value: 'https://github.com/RS-DAT/RS-DAT'
-    description: URL to the GitHub repository for RS-DAT
   - type: doi
     value: 10.5281/zenodo.7342602
     description: >-
       Persistent identifier for all versions of JupyterDaskonSLURM
-  - type: url
-    value: 'https://github.com/RS-DAT/JupyterDaskOnSRC'
-    description: URL to the GitHub repository for JupyterDaskOnSRC
-  - type: url
-    value: 'https://github.com/RS-DAT/JupyterDaskCloud2Cluster'
-    description: >-
-      URL to the GitHub repository for JupyterDask Cloud to
-      Clusterwith Singularity
-  - type: url
-    value: 'https://github.com/RS-DAT/JupyterDask-Singularity'
-    description: >-
-      URL to the GitHub repository for JupyterDask with
-      Singularity
 repository-code: 'https://github.com/RS-DAT/RS-DAT'
 url: 'https://rs-dat.github.io/RS-DAT/'
 abstract: >-
