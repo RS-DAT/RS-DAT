@@ -1,4 +1,4 @@
-# RS-DAT: Remote Sensing Deployable Analysis environmenT
+# RS-DAT
 
 Remote Sensing Deployable Analysis environmenT (RS-DAT) is an environment for deploying and running remote sensing analysis workflows on high-performance/high-throughput computing (HPC/HTC) systems and associated storage resources, while making use of the tools and interfaces (Jupyter Notebooks, Python, etc.). It seamlessly integrates and extends the Python and PyData ecosystem, including Dask and Xarray, and provides tools for data storage and retrieval on mass storage systems (e.g., dCache at SURF).
 
