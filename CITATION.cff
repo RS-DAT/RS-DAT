@@ -3,7 +3,7 @@
 
 cff-version: 1.0.0
 title: RS-DAT
-message: This file cites all components of RS-DAT
+message: "If you use this software, please cite it as below."
 type: software
 authors:
   - given-names: Francesco
@@ -16,7 +16,7 @@ authors:
     email: m.grootes@esciencecenter.nl
     affiliation: Netherlands eScience Center
     orcid: 'https://orcid.org/0000-0002-5733-4795'
-  - given-names: Fakhereh (Sarah)
+  - given-names: Fakhereh
     family-names: Alidoost
     affiliation: Netherlands eScience Center
     orcid: 'https://orcid.org/0000-0001-8407-6472'
@@ -38,12 +38,7 @@ identifiers:
 repository-code: 'https://github.com/RS-DAT/RS-DAT'
 url: 'https://rs-dat.github.io/RS-DAT/'
 abstract: >-
-  This is the main, common repository of the RS-DAT project.
-  Any common issues can and should be raised here, and
-  common developments can be housed here. Issues and
-  solutions arsing from the working groups that may/will
-  affect the other usecases should be also be linked from
-  here.
+The Remote Sensing Deployable Analysis environmenT (RS-DAT) is a framework for setting up an environment for exploration and analysis of remote sensing data on high-performance/high-throughput computing (HPC/HTC) systems and associated storage resources. It builds on the Pangeo ecosystem to seamlessly integrate and extend the Python and PyData ecosystem, including Dask and Xarray, and provides tools for data storage and retrieval on mass storage systems (e.g., dCache at SURF).
 keywords:
   - Dask
   - Jupyter
